@@ -1,0 +1,21 @@
+{ "subscribers": [
+	{ 	"ros-topic": "chatter",
+		"mqtt-topic": "ros/chatter",
+		"rate": 10,
+		"type" : "String"
+	},
+	{
+		"ros-topic": "info",
+		"mqtt-topic": "ros/info",
+		"rate": 10,
+		"type" : "String"
+	},
+        {
+                "ros-topic": "velocity",
+                "mqtt-topic": "ros/velocity",
+                "rate": 10,
+		"type" : "Twist" 
+        }
+
+	]
+}
