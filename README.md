@@ -30,5 +30,6 @@ if subscriberInfo['type'] == 'Twist':
 * Add security features of MQTT
 * Add ROS topic publish (ie, target point)
 * Move MQTT client info to .json file
+* Implement max rate
 
  
